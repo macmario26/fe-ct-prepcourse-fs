@@ -6,3 +6,12 @@ function esIgualYNegativo(a, b) {
 }
 
 module.exports = esIgualYNegativo;
+
+var a = 4;
+var b = -4;
+ 
+if(a == b && (a<0 && b<0)){
+  console.log(true)
+}else{
+  console.log(false)
+}
